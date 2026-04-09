@@ -26,7 +26,7 @@ public class PayrollCalculator {
             grossPay += grossOvertimePay;
         }
 
-        System.out.println( userName + ", Your gross pay is: $" + grossPay);
+        System.out.printf( userName + ", Your gross pay is: $" + "%.2f", grossPay);
 
     }
 }
